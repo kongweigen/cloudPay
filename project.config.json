@@ -1,0 +1,21 @@
+{
+    "projectType": "vue",
+    "projectName": "vue-base",
+    "pages": [
+        {
+            "name": "index",
+            "html": "./index.html",
+            "entry": "./src/main.js"
+        }
+    ],
+    "development": {
+        "openPage": "index.html",
+        "host": "0.0.0.0",
+        "port": "8080",
+        "proxy": {},
+        "historyApiFallback": {}
+    },
+    "dependencies": {
+        "vue": "^2.5.2"
+    }
+}
