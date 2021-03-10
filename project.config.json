@@ -1,21 +1,23 @@
 {
-    "projectType": "vue",
-    "projectName": "vue-base",
-    "pages": [
+    "projectType":"配置项目类型，目前支持类型 react|vue|",
+    "projectName":"项目名称",
+    "pages":[
         {
-            "name": "index",
-            "html": "./index.html",
-            "entry": "./src/main.js"
+            "name":"index",
+            "html":"./public/index.html",
+            "entry":"./src/main.js"
         }
     ],
-    "development": {
-        "openPage": "index.html",
-        "host": "0.0.0.0",
-        "port": "8080",
-        "proxy": {},
-        "historyApiFallback": {}
+    "development":{
+        "openPage":"index.html",
+        "host":"0.0.0.0",
+        "port":"5000",
+        "proxy":{
+        },
+        "historyApiFallback":{
+        }
     },
-    "dependencies": {
-        "vue": "^2.5.2"
+    "dependencies":{
+        "lib1":"粘贴原项目package.json里dependencies内容"
     }
 }
